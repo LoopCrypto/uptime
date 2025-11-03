@@ -17,10 +17,6 @@ sites:
       url: https://pay.loopcrypto.xyz
     - name: Loop Invoice
       url: https://invoice.loopcrypto.xyz
-    - name: LoopCrypto DNS
-      check: "tcp-ping"
-      url: loopcrypto.xyz
-      port: 53
 
 status-website:
     # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -28,6 +24,7 @@ status-website:
     #cname: demo.upptime.js.org
     baseUrl: /uptime
     logoUrl: https://framerusercontent.com/images/I4uoKuJ6DMfVazq9D4v0gBnLQ.png
+    name: ""
     introTitle: "LoopCrypto Status Page"
     introMessage: "This is the automatic status page for LoopCrypto."
     navbar:
