@@ -17,20 +17,23 @@ sites:
       url: https://pay.loopcrypto.xyz
     - name: Loop Invoice
       url: https://invoice.loopcrypto.xyz
+    - name: LoopCrypto DNS
+      check: "tcp-ping"
+      url: loopcrypto.xyz
+      port: 53
 
 status-website:
     # Add your custom domain name, or remove the `cname` line if you don't have a domain
     # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
     #cname: demo.upptime.js.org
     baseUrl: /uptime
-    logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-    name: Upptime
-    introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-    introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+    logoUrl: https://framerusercontent.com/images/I4uoKuJ6DMfVazq9D4v0gBnLQ.png
+    introTitle: "LoopCrypto Status Page"
+    introMessage: "This is the automatic status page for LoopCrypto."
     navbar:
         - title: Status
           href: /
-        - title: GitHub
-          href: https://github.com/$OWNER/$REPO
+    status-website:
+        theme: dark
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
