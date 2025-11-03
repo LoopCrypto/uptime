@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
     - name: Loop Website
-      url: https://loopcrypt.xyz
+      url: http://loooo1.com/
     - name: Company Dashboard
       url: https://admin.loopcrypto.xyz
     - name: Customer Dashboard
